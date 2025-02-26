@@ -14,19 +14,17 @@
 
 int main(){
 	
-	int var_123, q234;
+	int numeroInt;
+	char c = 'b';
+	numeroInt = 8;
+	c = 'b' - putchar(numeroInt);
+	c = 'a';
+	double suma = 0;
+	double x = 4;
+	suma = x + 3;
 	
-	float var_e = 2.7182, var_pi = 3.1416;
-	
-	char c1='b', c2='c',c3;
-	c3 = putchar(c1) + putchar(c2);
-	
-	int b1, b2, sumasb;
-	b1 = 4;
-	b2 = 6;
-	sumasb = b1 + b2;
-	printf("El valor var_e es : %f\n",var_e);
-	printf("Sumas b es: %d\n",sumasb);
-	printf("El valor char c3 es: %c\n ",c3);
+	printf("El valor entero es : %f\n",suma);
+	printf("El valor c es: %c\n",c);
+	printf("El número es : %d\n",numeroInt);
 	
 }
